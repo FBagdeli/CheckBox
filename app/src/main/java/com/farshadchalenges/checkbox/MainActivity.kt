@@ -89,6 +89,7 @@ fun CheckBoxExample() {
                         firstCheckBox.value = it
                         if (firstCheckBox.value){
                             myText.value = "Your gender is Male!"
+                            secondCheckBox.value = false
                         }else{
                             myText.value = "What is your gender ?"
                         }
@@ -109,6 +110,7 @@ fun CheckBoxExample() {
                         secondCheckBox.value = it
                         if (secondCheckBox.value){
                             myText.value = "Your gender is Female!"
+                            firstCheckBox.value = false
                         }else{
                             myText.value = "What is your gender ?"
                         }
