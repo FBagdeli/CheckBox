@@ -99,7 +99,7 @@ fun CheckBoxExample() {
                 Text(
                     text = "Male",
                     fontSize = 24.sp,
-                    color = Color.Black
+                    color = Color(0xFF50C9FF)
                 )
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -118,7 +118,7 @@ fun CheckBoxExample() {
                 Text(
                     text = "Female",
                     fontSize = 24.sp,
-                    color = Color.Black
+                    color = Color(0xFF50C9FF)
                 )
             }
         }
